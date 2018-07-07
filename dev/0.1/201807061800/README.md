@@ -7,7 +7,7 @@ BFGMiner is a multi-threaded, multi-blockchain, multi-pool ASIC, FPGA, GPU and C
 miner with dynamic clocking, monitoring, and fanspeed support for bitcoin.  
 Learn more about BFGMiner at https://github.com/luke-jr/bfgminer.  
 
-
+Tested on platform(s): Ubuntu 16.04    
 
 ## Execute summary on usage:
 
@@ -18,7 +18,7 @@ To know more about the binary version, and supported drivers and algorithms run:
 ### Selection of common parameters:
 
 --user|-u (arg)       Username for Equibit JSON-RPC server  
---pass|-p (arg)       Password for bitcoin JSON-RPC server  
+--pass|-p (arg)       Password for Equibit JSON-RPC server  
 --url|-o (arg)        URL for Equibit JSON-RPC server  
 --text-only|-T        Disable ncurses formatted screen output  
 --generate-to (arg)   Set an address to generate to for solo mining  
